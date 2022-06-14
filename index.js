@@ -818,7 +818,6 @@ if (!m.isGroup) return reply(lang.groupOnly())
             break
             case 'owner': case 'creator': {
                 alpha.sendContact(m.chat, global.owner, m)
-                reply('Itu Nomor Zaky Yah Kak😘')
             }
             break
             case 'rules':{
