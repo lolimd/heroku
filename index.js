@@ -801,7 +801,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
 				})
             }
             break
-            case 'tes': case 'runtime':
+            case 'speed': case 'tes': case 'runtime':
             reply(`Runtime : ${runtime(process.uptime())}`)
             break
             case 'public': {
@@ -814,24 +814,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
                 alpha.public = false
                 reply('Sukses Ganti Ke Mode Self\n\nUntuk mengubah ke mode public silahkan gunakan nomor bot')
-            }
-            break
-            case 'speed':case 'ping': {
-            reply('*🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-                     *🔵 FreeRAM:* ${format(freemem())}
-                       
-                     *💻 Platform :* ${os.platform()}
-                     *🧿 Server :* ${os.hostname()}
-                     ${readMore}
-                      NodeJS Memory Usage*
-                      ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
-
-                      ${cpus[0] ? `_Total CPU Usage_
-                      ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
-
-                        _CPU Core(s) Usage (${cpus.length} Core CPU)_
-                        ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')')
-               }         
+            }         
             break
             case 'owner': case 'creator': {
                 alpha.sendContact(m.chat, global.owner, m)
