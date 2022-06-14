@@ -85,16 +85,36 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
+	return`Hai tod ${pushname} 👋 selamat ${salam} , 
+saya ${botname}, bagi yang spam bot anak ngen🗿.
+Listening to: add zakybot-md
+01:43 ━━━━●───── 03:50
+⇆ㅤ ㅤ◁ㅤ ❚❚ ㅤ▷ ㅤㅤ↻﻿
+               ılıılıılıılıılıılı
+ᴠᴏʟᴜᴍᴇ : ▮▮▮▮▮▮▮▮▮▮
+
+▀█ ▄▀█ █▄▀ █▄█
+█▄ █▀█ █░█ ░█░
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu ZakyboT-MD :*
+*Listening to: add zakybot-md*
+01:43 ━━━━●───── 03:50
+⇆ㅤ ㅤ◁ㅤ ❚❚ ㅤ▷ ㅤㅤ↻﻿
+               ılıılıılıılıılıılı
+ᴠᴏʟᴜᴍᴇ : ▮▮▮▮▮▮▮▮▮▮
 
-╭─❒ 「 Bot Info 」 
+▀█ ▄▀█ █▄▀ █▄█
+█▄ █▀█ █░█ ░█░
+*🇲🇨bagi user yang memakai zakybot tolong jangan di spam ya karena gw cape anjing🗿*
+*🇬🇧For users who use Zakybot, please don't spam, because I'm tired of dogs🗿*
+*🇮🇳ज़कीबोट का उपयोग करने वाले उपयोगकर्ताओं के लिए, कृपया स्पैम न करें, क्योंकि मैं कुत्तों से थक गया हूँ🗿*
+*yang spam bot ngen🗿*
+
+╭─❒ 「 Info ZakyBot 」 
 ├ ${prefix}owner
 ├ ${prefix}rules
 ├ ${prefix}sc
@@ -104,7 +124,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}donate
 
 
-╭─❒ 「 Owner 」 
+╭─❒ 「 Menu Owner 」 
 ├ < evaluate
 ├ > evaluate
 ├ $ exec
@@ -163,7 +183,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}delmsg [nama file]
 
 
-╭─❒ 「 Group 」 
+╭─❒ 「 Group Menu 」 
 ├ ${prefix}listonline
 ├ ${prefix}sider
 ├ ${prefix}wm packname|author
@@ -807,7 +827,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ Rashid
 ├ ZeeoneOfc
 ├ Penyedia Module
-╰❒ And All Support
+╰❒ zaky tukang record🗿
     `
 }
 
@@ -842,9 +862,9 @@ Sanksi: *PERMANENT BLOCK*
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan Zakybot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Zakybot
 😖🙏
 `
 }
@@ -865,17 +885,14 @@ exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Recode : MY RECODE
 `
 }
 exports.tos = (ownernomer) => {
     return `
 *-------「 DONATE 」 -------*
 
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-
-Berapapun donasi kalian akan sangat berarti 👍
+gak ada donasi² tod gw males🗿
 
 Thanks!
 
