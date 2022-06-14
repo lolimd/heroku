@@ -68,18 +68,18 @@ global.available = false //status online (online)
 
 // Other
 global.botname = "Alphabot-Mdོ"
-global.ownername= "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×"
+global.ownername= "ᴹᴿ᭄ ZakyOfcོ ×፝֟͜×"
 global.myweb ="https://api-alphabot.herokuapp.com/"
-global.youtube = "https://youtube.com/c/ZeeoneOfc"
-global.github = "https://zeeone-ofc.github.io/"
-global.email = "zeeoneofc@gmail.com"
+global.youtube = "https://youtube.com/c/Zakybot"
+global.github = "https://zakybot-ofc.github.io/"
+global.email = "zakyofc@gmail.com"
 global.region = "Indonesia"
-global.ownernomer = "62887435047326"
-global.ownernomerr = "+62887435047326"
+global.ownernomer = "6281365255567"
+global.ownernomerr = "+6281365255567"
 global.thumbnail = "./image/lol.jpg"
 global.donasi = "./image/donasi.jpg"
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
-global.owner = ["62887435047326","62887435047326","6285342106390"] //ganti agar fitur owner bisa di gunakan
+global.owner = ["6281365255567","6281365255567","6281365255567"] //ganti agar fitur owner bisa di gunakan
 global.packname = '© Alphabot-Mdོ' //sticker wm
 global.author = 'Di Buat Oleh ZeeoneOfc' //sticker wm
 global.sessionName = 'session'
