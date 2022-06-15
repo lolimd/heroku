@@ -816,6 +816,14 @@ if (!m.isGroup) return reply(lang.groupOnly())
                 reply('Sukses Ganti Ke Mode Self\n\nUntuk mengubah ke mode public silahkan gunakan nomor bot')
             }
             break
+            case 'anjing': case 'babi': {
+            reply('jangan toxic ntar dosa janji ya ama kak jangan ulangi lagi☹️')
+            }
+            break
+            case 'bot': {
+            reply ('iyah disini bot zaky apa yang bisa bot bantu silahkan ketik menu kak🙃')
+            }
+            break
             case 'owner': case 'creator': {
                 alpha.sendContact(m.chat, global.owner, m)
                 reply('ini nomor zaky ya kak jangan di ambil ya zaky punya aku😭')
