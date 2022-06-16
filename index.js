@@ -816,8 +816,20 @@ if (!m.isGroup) return reply(lang.groupOnly())
                 reply('Sukses Ganti Ke Mode Self\n\nUntuk mengubah ke mode public silahkan gunakan nomor bot')
             }
             break
+            case 'ram': {
+            reply('🤖RAM LoliboTz: ${format(totalmem() - freemem())} / ${format(totalmem())}')
+            }
+            break
             case 'anjing': case 'babi': {
-            reply('jangan toxic ntar dosa janji ya ama kak jangan ulangi lagi☹️')
+            reply('jangan toxic ntar dosa janji ya ama lolibotz jangan ulangi lagi☹️')
+            }
+            break
+            case 'assalamualaikum': {
+            reply('waalaikumsalam kak disini lolibotz😪')
+            }
+            break
+            case 'zaky': {
+            reply('apa cari zaky mau culik zaky gw kan😡')
             }
             break
             case 'bot': {
@@ -834,7 +846,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
             var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "by lolibotz🙃",
 						"url": `${myweb}`
 						}
 					}
@@ -847,32 +859,32 @@ if (!m.isGroup) return reply(lang.groupOnly())
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Creator",
+              "displayText": "Group resmi🔎",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Rest Api's",              
+              "displayText": "Work api lolibotz🔎",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Rules",
+              "displayText": "😠peraturan zaky😒",
 "id": 'rules'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Owner",
+              "displayText": "🤔Zaky Ganteng🗿",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "List Command",
+              "displayText": "😖cmd command😱",
 "id": 'command'
             }
           }
@@ -1590,10 +1602,10 @@ break
             break
 				case 'menu':{
 					if(typemenu == 'templateLocation'){
-						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
+						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "Group resmi🔎","url": `${youtube}`}},{"urlButton": {"displayText": "Work api lolibotz🔎","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Gak doansi bang🗿","id": 'donate'}},{"quickReplyButton": {"displayText": "🤔Zaky Ganteng🗿","id": 'owner'}},{"quickReplyButton": {"displayText": "😖cmd command😱","id": 'command'}}] )
 							}
 						if(typemenu == 'templateTenor'){
-							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] , {quoted: m})
+							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "Group resmi🔎","url": `${youtube}`}},{"urlButton": {"displayText": "Work api lolibotz🔎","url": `${myweb}`}},{"quickReplyButton": {"displayText": "😠Gak doansi bang🗿","id": 'donate'}},{"quickReplyButton": {"displayText": "🤔Zaky Ganteng🗿","id": 'owner'}},{"quickReplyButton": {"displayText": "😖cmd command😱","id": 'command'}}] , {quoted: m})
 						 }
 						if(typemenu == 'katalog'){
 							alpha.sendKatalog(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
@@ -1607,7 +1619,7 @@ break
 					}
 					break    
 	case 'allmenu':{
-			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "😠Gak doansi bang🗿","id": 'donate'}},{"quickReplyButton": {"displayText": "🤔Zaky Ganteng🗿","id": 'owner'}},{"quickReplyButton": {"displayText": "😠peraturan zaky😒","id": 'rules'}}] )
 		}
 	break   
 	case 'infocmd': case'infomenu':{
